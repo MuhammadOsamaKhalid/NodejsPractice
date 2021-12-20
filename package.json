@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "chalk": "^4.1.2",
+    "express": "^4.17.1",
+    "inquirer": "^8.2.0",
+    "node-fetch": "^3.1.0",
+    "progress": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/OsamaCSquare/nodejs-practice.git"
+  },
+  "author": "osama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/OsamaCSquare/nodejs-practice/issues"
+  },
+  "homepage": "https://gitlab.com/OsamaCSquare/nodejs-practice#readme"
+}
