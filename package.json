@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/OsamaCSquare/nodejs-practice.git"
+    "url": "git+https://github.com/MuhammadOsamaKhalid/NodejsPractice.git"
   },
   "author": "osama",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/OsamaCSquare/nodejs-practice/issues"
+    "url": "https://github.com/MuhammadOsamaKhalid/NodejsPractice/issues"
   },
-  "homepage": "https://gitlab.com/OsamaCSquare/nodejs-practice#readme"
+  "homepage": "https://github.com/MuhammadOsamaKhalid/NodejsPractice#readme"
 }
