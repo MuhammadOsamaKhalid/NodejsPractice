@@ -9,8 +9,10 @@ const router = express.Router();
 
 router.get('/',(req, res) => {
     // console.log('In the next middleware');
-    console.log('Shop.js', adminData.products);
-    res.sendFile(path.join(rootDir,'views','shop.html'));
+    // console.log('Shop.js', adminData.products);
+    // res.sendFile(path.join(rootDir,'views','shop.html'));
+    const products = adminData.products;
+    res.render('shop',{prods: products, docTitle: 'Shop'});
 });
 
 
