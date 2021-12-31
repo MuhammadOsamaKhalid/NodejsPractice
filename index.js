@@ -702,4 +702,15 @@
 // })
 
 
+console.log(a);
+
+let b =4;
+console.log(b);
+console.log(c);
+
+
+var a = 6;
+
+
+
 
