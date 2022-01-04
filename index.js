@@ -702,15 +702,171 @@
 // })
 
 
-console.log(a);
+// console.log(a);
 
-let b =4;
-console.log(b);
-console.log(c);
+// let b =4;
+// console.log(b);
+// console.log(c);
 
 
-var a = 6;
+// var a = 6;
 
+// let myArray = [{"data1": ["one", "two", "three", "four"]}, 
+// {"data2": ["five", "six", "seven", "eight"]},{"data3": ["nine", "ten"]}];
+// for(let i = 0; i < myArray.length; i++){ 
+// // if (myArray = myArray[i].child){
+//     let childArray = myArray[i].child;
+// // }  
+// for(let j = 0; j < childArray.length; j++){ 
+// console.log(childArray[j]); 
+// }
+// }
+
+
+// x=1;
+
+// while(x<=10){
+//     console.log(x);
+//     x++;
+// }
+
+// x=1;
+
+// do{
+//     console.log(x);
+//     x++;
+// }while(x<=10)
+
+// var numbers = [{"data1": ["one", "two", "three", "four"]}, 
+// {"data2": ["five", "six", "seven", "eight"]},{"data3": ["nine", "ten"]}];
+// var over18 = numbers.filter(myFunction);
+
+// console.log(over18);
+
+// function myFunction(value, index, array) {
+//   return value = data1;
+// }
+
+
+// var details = [{
+//     studentName: "John",
+//     studentMarks: 92
+//  },
+//  {
+//     studentName: "David",
+//     studentMarks: 89
+//  },
+//  {
+//     studentName: "Mike",
+//     studentMarks: 98
+//  },
+//  ];
+//  var specificValuesFromArray = details.filter(obj => obj.studentMarks ===
+//  92 || obj.studentMarks === 98);
+//  console.log(specificValuesFromArray)
+
+// var numbers1 = [45, 4, 9, 16, 25];
+// var numbers2 = numbers1.map(numbers1*2);
+// console.log(numbers2);
+
+// var numbers1 = [45, 3, 11, 16, 25,8];
+// var numbers2 = numbers1.map( (value) => {
+//     return value * 2;
+// });
+// var numbers3 = numbers2.filter(myFunction1);
+// var numbers4 = numbers1.filter(myFunction1);
+
+// console.log(numbers2);
+// console.log(numbers3);
+// console.log(numbers4);
+
+// function myFunction(value, index, array) {
+//   return value * 2;
+// }
+// function myFunction1(value, index, array) {
+//     if (value % 2 == 0)
+//     return value;
+// }
+
+
+var details = [{
+    studentName: "John",
+    studentMarks: 92,
+    date: "12/12/2021"
+ },
+ {
+    studentName: "David",
+    studentMarks: 89,
+    date: "07/12/2021"
+ },
+ {
+    studentName: "Mike",
+    studentMarks: 98,
+    date: "01/12/2021"
+ },
+ ];
+
+
+//  var specificValuesFromArray = details.filter(obj => obj.studentMarks ===
+//     92 || obj.studentMarks === 98);
+//     console.log(specificValuesFromArray)
+for(let i=0; i<details.length; i++){
+    var specificValuesFromArray = details[i];
+    // console.log(specificValuesFromArray);
+    if (specificValuesFromArray.date == "01/12/2021" ){
+        console.log(specificValuesFromArray);
+    }
+}
+ 
+
+// const axios = require("axios")
+
+// axios.get("http://hp-api.herokuapp.com/api/characters")
+// .then(function(res){
+// res.data.map(obj=> {console.log(obj["name"])})
+// })
+// .catch(function(err){
+//     if (err.response){
+//         console.log("Voldemort says there's an issue with your Response ", err.response.status)
+//     } else if (err.request){
+//         console.log("Voldemort says there's an issue with your Request.")
+//     } else {
+//         console.log("Voldemort says ",err.message)
+//     }
+// })
+
+
+
+// axios.post('https://api.funtranslations.com/translate/yoda.json', {
+//     "text": "Hello World"
+// })
+// .then(function(res){
+//     console.log(res.data.contents.translated)
+// })
+// .catch(function(err){
+//         if (err.response){
+//             console.log("Palpatine says there's an issue with your Response ", err.response.status)
+//         } else if (err.request){
+//             console.log("Palpatine says there's an issue with your Request.")
+//         } else {
+//             console.log("Palpatine says ",err.message)
+//         }
+//     })
+
+
+// console.log(a);
+// var a=3;
+
+// console.log(b);
+// let b=4;
+
+
+var s = "you shall not pass".split(" "); 
+      var ans = ""; 
+      for (let i =s.length-1; i >= 0 ; i--) { 
+        ans += s[i] + " "; 
+      } 
+      console.log("Reversed String: " + ans); 
 
 
 
