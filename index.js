@@ -867,5 +867,3 @@ var s = "you shall not pass".split(" ");
         ans += s[i] + " "; 
       } 
       console.log("Reversed String: " + ans); 
-
-
