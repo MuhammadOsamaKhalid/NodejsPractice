@@ -861,14 +861,14 @@
 // let b=4;
 
 
-<<<<<<< Updated upstream
+
 var s = "you shall not pass".split(" "); 
       var ans = ""; 
       for (let i =s.length-1; i >= 0 ; i--) { 
         ans += s[i] + " "; 
       } 
       console.log("Reversed String: " + ans); 
-=======
+
 // var s = "you shall not pass".split(" "); 
 //       var ans = ""; 
 //       for (let i =s.length-1; i >= 0 ; i--) { 
@@ -876,8 +876,3 @@ var s = "you shall not pass".split(" ");
 //       } 
 //       console.log("Reversed String: " + ans); 
 
-
-
-
-
->>>>>>> Stashed changes
