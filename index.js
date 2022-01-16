@@ -702,11 +702,11 @@
 // })
 
 
-console.log(a);
+// console.log(a);
 
-let b =4;
-console.log(b);
-console.log(c);
+// let b =4;
+// console.log(b);
+// console.log(c);
 
 
 // var a = 6;
@@ -877,18 +877,18 @@ console.log(c);
 //       console.log("Reversed String: " + ans); 
 
 
-// function odd_evenNum(num){
-//     if(num===0){
-//         return(`${num} is even`);
-//     }
-//     if(num===0){
-//         return(`${num} is odd`);
-//     }
-//     else{
-//         num = num - 2;
-//         return odd_evenNum(num);
-//     }
-// }
+function odd_evenNum(num){
+    if(num===0){
+        return(`${num} is even`);
+    }
+    if(num===0){
+        return(`${num} is odd`);
+    }
+    else{
+        num = num - 2;
+        return odd_evenNum(num);
+    }
+}
 
 // console.log(odd_evenNum(2));
 // console.log(odd_evenNum(33));
