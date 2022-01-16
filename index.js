@@ -879,18 +879,19 @@
 
 function odd_evenNum(num){
     if(num===0){
-        return(`${num} is even`);
+        return console.log("is even");
     }
     if(num===0){
-        return(`${num} is odd`);
+        return console.log(" is odd");
     }
     else{
-        num = num - 2;
+        // num = num - 2;
+        num%2===0;
         return odd_evenNum(num);
     }
 }
 
-// console.log(odd_evenNum(2));
+console.log(odd_evenNum(2));
 // console.log(odd_evenNum(33));
 // console.log(odd_evenNum(7));
 // console.log(odd_evenNum(78));
