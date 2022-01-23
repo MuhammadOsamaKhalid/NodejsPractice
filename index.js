@@ -891,8 +891,8 @@ function odd_evenNum(num){
     }
 }
 
-console.log(odd_evenNum(2));
-// console.log(odd_evenNum(33));
+// console.log(odd_evenNum(2));
+console.log(odd_evenNum(33));
 // console.log(odd_evenNum(7));
 // console.log(odd_evenNum(78));
 
