@@ -877,22 +877,60 @@
 //       console.log("Reversed String: " + ans); 
 
 
-function odd_evenNum(num){
-    if(num===0){
-        return console.log("is even");
-    }
-    if(num===0){
-        return console.log(" is odd");
-    }
-    else{
-        // num = num - 2;
-        num%2===0;
-        return odd_evenNum(num);
-    }
-}
+// function odd_evenNum(num){
+//     if(num===0){
+//         return console.log("is even");
+//     }
+//     if(num===0){
+//         return console.log(" is odd");
+//     }
+//     else{
+//         // num = num - 2;
+//         num%2===0;
+//         return odd_evenNum(num);
+//     }
+// }
 
-// console.log(odd_evenNum(2));
-console.log(odd_evenNum(33));
+// // console.log(odd_evenNum(2));
+// console.log(odd_evenNum(33));
 // console.log(odd_evenNum(7));
 // console.log(odd_evenNum(78));
 
+
+
+// function evenOdd(x){
+// console.log(x);
+// if(x%2== 0){
+//     console.log('even');
+//     evenOdd(x-1)
+// }
+// else{
+//     console.log('odd');
+// }
+// }
+// evenOdd(10);
+
+
+let activities = [
+    ['Work', 9],
+    ['Eat', 1],
+    ['Commute', 2],
+    ['Play Game', 1],
+    ['Sleep', 7]
+];
+
+console.table(activities);
+
+console.log(activities);
+var val = [ 'Eat', 1 ];
+var arr =activities.filter(value=> value[1, 1] !== val);
+
+console.log(arr);
+
+// const items = ['a', 'b', 'c', 'd', 'e', 'f']
+// const valueToRemove = 'c'
+// const filteredItems = items.filter(function(item) {
+//   return item !== valueToRemove
+// })
+
+// console.log(filteredItems)
