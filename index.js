@@ -911,21 +911,22 @@
 // evenOdd(10);
 
 
-let activities = [
-    ['Work', 9],
-    ['Eat', 1],
-    ['Commute', 2],
-    ['Play Game', 1],
-    ['Sleep', 7]
-];
+// let activities = [
+//     ['Work', 9],
+//     ['Eat', 1],
+//     ['Commute', 2],
+//     ['Play Game', 1],
+//     ['Sleep', 7]
+// ];
 
-console.table(activities);
+// console.table(activities);
 
-console.log(activities);
-var val = [ 'Eat', 1 ];
-var arr =activities.filter(value=> value[1, 1] !== val);
+// console.log(activities);
+// var val = [ 'Eat', 1 ];
+// var arr =activities.filter(value=> value[1, 1] !== val);
 
-console.log(arr);
+
+// console.log(arr);
 
 // const items = ['a', 'b', 'c', 'd', 'e', 'f']
 // const valueToRemove = 'c'
@@ -934,3 +935,14 @@ console.log(arr);
 // })
 
 // console.log(filteredItems)
+
+
+const myFunc = () => {
+    const a = 2;
+    return () => console.log("a is " + a);
+  };
+  
+  const a = 1;
+  
+  const test = myFunc();
+  test();
