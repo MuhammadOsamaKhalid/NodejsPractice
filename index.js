@@ -703,24 +703,25 @@
 
 
 // console.log(a);
+// var a=4;
 
-// let b =4;
 // console.log(b);
 // console.log(c);
 
 
 // var a = 6;
 
-// let myArray = [{"data1": ["one", "two", "three", "four"]}, 
+// var myArray = [{"data1": ["one", "two", "three", "four"]}, 
 // {"data2": ["five", "six", "seven", "eight"]},{"data3": ["nine", "ten"]}];
-// for(let i = 0; i < myArray.length; i++){ 
-// // if (myArray = myArray[i].child){
-//     let childArray = myArray[i].child;
-// // }  
-// for(let j = 0; j < childArray.length; j++){ 
-// console.log(childArray[j]); 
+// for(var i = 0; i < myArray.length; i++){ 
+// if (myArray[i] == myArray["data1"]){
+//     var childArray = myArray[i];
+//     console.log(childArray);
+// }  
+// // for(let j = 0; j < childArray.length; j++){ 
+// // console.log(childArray[j]); 
 // }
-// }
+// //}
 
 
 // x=1;
@@ -789,27 +790,27 @@
 // }
 
 
-// var details = [{
-//     studentName: "John",
-//     studentMarks: 92,
-//     date: "12/12/2021"
-//  },
-//  {
-//     studentName: "David",
-//     studentMarks: 89,
-//     date: "07/12/2021"
-//  },
-//  {
-//     studentName: "Mike",
-//     studentMarks: 98,
-//     date: "01/12/2021"
-//  },
-//  ];
+var details = [{
+    studentName: "John",
+    studentMarks: 92,
+    date: "12/12/2021"
+ },
+ {
+    studentName: "David",
+    studentMarks: 89,
+    date: "07/12/2021"
+ },
+ {
+    studentName: "Mike",
+    studentMarks: 98,
+    date: "01/12/2021"
+ },
+ ];
 
 
-// //  var specificValuesFromArray = details.filter(obj => obj.studentMarks ===
-// //     92 || obj.studentMarks === 98);
-// //     console.log(specificValuesFromArray)
+ var specificValuesFromArray = details.filter(obj => obj.studentMarks ===
+    92 || obj.studentMarks === 98);
+    console.log(specificValuesFromArray)
 // for(let i=0; i<details.length; i++){
 //     var specificValuesFromArray = details[i];
 //     // console.log(specificValuesFromArray);
@@ -861,6 +862,27 @@
 // let b=4;
 
 
+<<<<<<< Updated upstream
+
+=======
+// <<<<<<< Updated upstream
+>>>>>>> Stashed changes
+// var s = "you shall not pass".split(" "); 
+//       var ans = ""; 
+//       for (let i =s.length-1; i >= 0 ; i--) { 
+//         ans += s[i] + " "; 
+//       } 
+//       console.log("Reversed String: " + ans); 
+// =======
+// var s = "you shall not pass".split(" "); 
+//       var ans = ""; 
+//       for (let i =s.length-1; i >= 0 ; i--) { 
+//         ans += s[i] + " "; 
+//       } 
+//       console.log("Reversed String: " + ans); 
+
+
+
 
 // var s = "you shall not pass".split(" "); 
 //       var ans = ""; 
@@ -869,13 +891,7 @@
 //       } 
 //       console.log("Reversed String: " + ans); 
 
-// var s = "you shall not pass".split(" "); 
-//       var ans = ""; 
-//       for (let i =s.length-1; i >= 0 ; i--) { 
-//         ans += s[i] + " "; 
-//       } 
-//       console.log("Reversed String: " + ans); 
-
+// >>>>>>> Stashed changes
 
 function odd_evenNum(num){
     if(num===0){
@@ -896,3 +912,16 @@ console.log(odd_evenNum(33));
 // console.log(odd_evenNum(7));
 // console.log(odd_evenNum(78));
 
+<<<<<<< Updated upstream
+=======
+// let m =2;
+// let n=m;
+// n=5;
+// console.log(n);
+
+console.time("loop");
+    for (var i = 0; i < 1000000; i += 1){
+        // Do nothing
+    }
+    console.timeEnd("loop");
+>>>>>>> Stashed changes
