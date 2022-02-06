@@ -790,27 +790,27 @@
 // }
 
 
-var details = [{
-    studentName: "John",
-    studentMarks: 92,
-    date: "12/12/2021"
- },
- {
-    studentName: "David",
-    studentMarks: 89,
-    date: "07/12/2021"
- },
- {
-    studentName: "Mike",
-    studentMarks: 98,
-    date: "01/12/2021"
- },
- ];
+// var details = [{
+//     studentName: "John",
+//     studentMarks: 92,
+//     date: "12/12/2021"
+//  },
+//  {
+//     studentName: "David",
+//     studentMarks: 89,
+//     date: "07/12/2021"
+//  },
+//  {
+//     studentName: "Mike",
+//     studentMarks: 98,
+//     date: "01/12/2021"
+//  },
+//  ];
 
 
- var specificValuesFromArray = details.filter(obj => obj.studentMarks ===
-    92 || obj.studentMarks === 98);
-    console.log(specificValuesFromArray)
+//  var specificValuesFromArray = details.filter(obj => obj.studentMarks ===
+//     92 || obj.studentMarks === 98);
+//     console.log(specificValuesFromArray)
 // for(let i=0; i<details.length; i++){
 //     var specificValuesFromArray = details[i];
 //     // console.log(specificValuesFromArray);
@@ -912,11 +912,11 @@ var details = [{
 // n=5;
 // console.log(n);
 
-console.time("loop");
-    for (var i = 0; i < 1000000; i += 1){
-        // Do nothing
-    }
-    console.timeEnd("loop");
+// console.time("loop");
+//     for (var i = 0; i < 1000000; i += 1){
+//         // Do nothing
+//     }
+//     console.timeEnd("loop");
 
 
 
@@ -959,15 +959,27 @@ console.time("loop");
 // console.log(filteredItems)
 
 
-const myFunc = () => {
-    const a = 2;
-    return () => console.log("a is " + a);
-  };
+// const myFunc = () => {
+//     const a = 2;
+//     return () => console.log("a is " + a);
+//   };
   
-  const a = 1;
+//   const a = 1;
   
-  const test = myFunc();
-  test();
+//   const test = myFunc();
+//   test();
+
+
+const reversedNum = num => parseFloat(num.toString().split('').reverse().join('')) * Math.sign(num)
+console.log(reversedNum(34257));
+
+
+// function intreverse(n){
+//   n=n+"";
+//   return n.split('').reverse().join('');  
+// }
+
+// console.log(intreverse(34562));
 
   
 
