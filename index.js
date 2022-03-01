@@ -856,10 +856,22 @@
 
 
 // console.log(a);
-// var a=3;
+// var a=10;
 
 // console.log(b);
 // let b=4;
+
+var folks = [ 
+    {name: "Bob", age: "32", occupation: "developer"}, 
+    {name: "Bill", age: "17", occupation: "delinquent"}, 
+    {name: "Brad", age: "40", occupation: "yes"} 
+  ]
+
+  result = folks.filter( fella => fella.name !== "Bob");
+  console.log(result);
+
+  result1 = folks.find( fella => fella.name === "Bob");
+  console.log(result1);
 
 // var s = "you shall not pass".split(" "); 
 //       var ans = ""; 
@@ -970,8 +982,8 @@
 //   test();
 
 
-const reversedNum = num => parseFloat(num.toString().split('').reverse().join('')) * Math.sign(num)
-console.log(reversedNum(34257));
+// const reversedNum = num => parseFloat(num.toString().split('').reverse().join('')) * Math.sign(num)
+// console.log(reversedNum(-3425700));
 
 
 // function intreverse(n){
@@ -979,7 +991,45 @@ console.log(reversedNum(34257));
 //   return n.split('').reverse().join('');  
 // }
 
-// console.log(intreverse(34562));
+// console.log(intreverse(-3425700));
+
+// program to check if the number is even or odd
+// take input from the user
+// const number = 5;
+
+// // ternary operator
+// const result = (number % 2  == 0) ? "even" : "odd";
+
+// // display the result
+// console.log(`The number is ${result}.`);
+
+
+    // var n = 9;
+    // if((n / 2) * 2 == n){
+    //     console.log("Even");
+    // }
+    // else{
+    //     console.log("Odd");
+    // }
+
+//     function isEven(n)
+// {
+//     let isEven = true;
+       
+//     for(let i = 1; i <= n; i++)
+//         isEven = !isEven;
+           
+//     return isEven;
+// }
+ 
+// // Driver code
+// let n = 5;
+// if (isEven(n))
+//     console.log("Even");
+// else
+//     console.log("Odd");
+
+
 
   
 
